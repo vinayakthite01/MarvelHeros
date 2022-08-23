@@ -1,0 +1,19 @@
+//
+//  Debug.xcconfig
+//  MarvelHeros
+//
+//  Created by Vinayak Thite on 21/08/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-MarvelHeros/Pods-MarvelHeros.debug.xcconfig"
+
+// Server URL
+SERVER_URL = 
+
+// MarvelHeros API Key
+PUBLIC_API_KEY = 9db98596dca36f2afe5df7b07d5a62fd
+
+PRIVATE_API_KEY = 6e7519e97bc3c9409b917c2a4a5160d60e19d0bc

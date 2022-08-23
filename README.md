@@ -1,1 +1,1 @@
-# MarvelHeros
+# OpenSource-NewsApp
