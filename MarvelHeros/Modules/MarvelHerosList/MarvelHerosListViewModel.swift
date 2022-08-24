@@ -8,7 +8,7 @@
 import Foundation
 
 class MarvelHerosListViewModel: MarvelHerosListViewModelProtocol {
-    
+ 
     /// private `variable`
     private let apiManager: APIManagerProtocol?
     private let navigator: MarvelHerosListNavigatorProtocol?
@@ -42,6 +42,10 @@ class MarvelHerosListViewModel: MarvelHerosListViewModelProtocol {
     /// - Returns: Heros Array
     func getMarvelHerosList() -> [MarvelHerosListModel]? {
         return marvelHeroList
+    }
+    
+    func redirectToMarvelHeroDetails(forIndex index: Int) {
+        //
     }
     
     

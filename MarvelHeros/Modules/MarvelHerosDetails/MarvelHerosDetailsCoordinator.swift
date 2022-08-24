@@ -33,7 +33,7 @@ class MarvelHerosDetailsCoordinator: MarvelHerosListCoordinatorProtocol {
 
     /// start the flow
     func start() {
-        let viewController = marvelHeroDetailsBuilder.build(with: self, heroDetails: heroDetails)
+        let viewController = marvelHeroDetailsBuilder.build(with: self, herosList: heroDetails)
         navigationController.push(viewController: viewController, animated: true)
     }
 }

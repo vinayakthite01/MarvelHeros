@@ -33,7 +33,6 @@
 		F3585B6D28B25BB600BCFD01 /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3585B6C28B25BB600BCFD01 /* DateFormatter+Extension.swift */; };
 		F3585B7028B25C8C00BCFD01 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F3585B6F28B25C8C00BCFD01 /* Debug.xcconfig */; };
 		F3585B7A28B2676900BCFD01 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = F3585B7928B2676900BCFD01 /* swiftgen.yml */; };
-		F3585B8928B26A3D00BCFD01 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3585B8728B26A3D00BCFD01 /* Localizable.strings */; };
 		F3585B8B28B26E3200BCFD01 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3585B8A28B26E3200BCFD01 /* Environment.swift */; };
 		F3585B8F28B27BBF00BCFD01 /* MarvelHerosList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3585B8E28B27BBF00BCFD01 /* MarvelHerosList.swift */; };
 		F3585B9128B27BD000BCFD01 /* MarvelHerosListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3585B9028B27BD000BCFD01 /* MarvelHerosListModel.swift */; };
@@ -109,7 +108,6 @@
 		F3585B6F28B25C8C00BCFD01 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		F3585B7128B25CA000BCFD01 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		F3585B7928B2676900BCFD01 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
-		F3585B8828B26A3D00BCFD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = NewsApp/Base.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		F3585B8A28B26E3200BCFD01 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		F3585B8E28B27BBF00BCFD01 /* MarvelHerosList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelHerosList.swift; sourceTree = "<group>"; };
 		F3585B9028B27BD000BCFD01 /* MarvelHerosListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelHerosListModel.swift; sourceTree = "<group>"; };
@@ -335,7 +333,6 @@
 			isa = PBXGroup;
 			children = (
 				F3585B8A28B26E3200BCFD01 /* Environment.swift */,
-				F3585B8728B26A3D00BCFD01 /* Localizable.strings */,
 				F3585B2428B23A1000BCFD01 /* Assets.xcassets */,
 				F3585B7E28B2689500BCFD01 /* Generated-SwiftGenFiles */,
 			);
@@ -495,7 +492,6 @@
 			files = (
 				F3585B2828B23A1000BCFD01 /* LaunchScreen.storyboard in Resources */,
 				F3585B7A28B2676900BCFD01 /* swiftgen.yml in Resources */,
-				F3585B8928B26A3D00BCFD01 /* Localizable.strings in Resources */,
 				F3585B2528B23A1000BCFD01 /* Assets.xcassets in Resources */,
 				F3585B7028B25C8C00BCFD01 /* Debug.xcconfig in Resources */,
 				F3585B2328B23A0C00BCFD01 /* MarvelHeros.storyboard in Resources */,
@@ -728,14 +724,6 @@
 				F3585B2728B23A1000BCFD01 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		F3585B8728B26A3D00BCFD01 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3585B8828B26A3D00BCFD01 /* Base */,
-			);
-			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
